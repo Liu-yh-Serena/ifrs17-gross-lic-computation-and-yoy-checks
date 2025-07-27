@@ -21,9 +21,9 @@ To simulate a real-world actuarial workflow for a P&C (General Insurance) compan
 - payment_pattern: 1/2/3/4 - assuming payment at end of 1/2/3/4 year(s). Assuming same payment pattern for BEL across AYs. 
 
 ## 📁 Project Structure
-├── data/ # Input files
-├── output/ # Output files: LIC summary and validation checklist
-├── main.py # Core LIC calculation logic
-├── validate.py # Validation and YoY comparison logic using SQL
-├── requirements.txt # Python dependencies
-└── README.md # Project summary
+- data/ # Input files
+- output/ # Output files: LIC summary and validation checklist
+- main.py # Core LIC calculation logic
+- validate.py # Validation and YoY comparison logic using SQL. Vaildation results will be displayed in Interactive console.
+- requirements.txt # Python dependencies
+- README.md # Project summary
